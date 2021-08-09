@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D967C52D26BD16C500DF423A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967C52C26BD16C500DF423A /* AppDelegate.swift */; };
 		D967C52F26BD16C500DF423A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967C52E26BD16C500DF423A /* SceneDelegate.swift */; };
-		D967C53126BD16C500DF423A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967C53026BD16C500DF423A /* ViewController.swift */; };
 		D967C53426BD16C500DF423A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967C53226BD16C500DF423A /* Main.storyboard */; };
 		D967C53626BD16C700DF423A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D967C53526BD16C700DF423A /* Assets.xcassets */; };
 		D967C53926BD16C700DF423A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D967C53726BD16C700DF423A /* LaunchScreen.storyboard */; };
+		D967C54126BD170600DF423A /* LifeNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967C54026BD170600DF423A /* LifeNumbersViewController.swift */; };
+		D967C54326BD173300DF423A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D967C54226BD173300DF423A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D967C52926BD16C500DF423A /* lifeNumbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lifeNumbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D967C52C26BD16C500DF423A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D967C52E26BD16C500DF423A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D967C53026BD16C500DF423A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D967C53326BD16C500DF423A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D967C53526BD16C700DF423A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D967C53826BD16C700DF423A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D967C53A26BD16C700DF423A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D967C54026BD170600DF423A /* LifeNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeNumbersViewController.swift; sourceTree = "<group>"; };
+		D967C54226BD173300DF423A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				D967C52C26BD16C500DF423A /* AppDelegate.swift */,
 				D967C52E26BD16C500DF423A /* SceneDelegate.swift */,
-				D967C53026BD16C500DF423A /* ViewController.swift */,
+				D967C54026BD170600DF423A /* LifeNumbersViewController.swift */,
+				D967C54226BD173300DF423A /* ResultViewController.swift */,
 				D967C53226BD16C500DF423A /* Main.storyboard */,
 				D967C53526BD16C700DF423A /* Assets.xcassets */,
 				D967C53726BD16C700DF423A /* LaunchScreen.storyboard */,
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D967C53126BD16C500DF423A /* ViewController.swift in Sources */,
+				D967C54326BD173300DF423A /* ResultViewController.swift in Sources */,
+				D967C54126BD170600DF423A /* LifeNumbersViewController.swift in Sources */,
 				D967C52D26BD16C500DF423A /* AppDelegate.swift in Sources */,
 				D967C52F26BD16C500DF423A /* SceneDelegate.swift in Sources */,
 			);
